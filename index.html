@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b14">
+  <meta name="description" content="Recargas Astore: recargas gaming rápidas, seguras y sencillas.">
+  <title>Recargas Astore | Tu universo gaming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#090b14;--panel:#111522;--panel2:#151b2b;--line:rgba(255,255,255,.09);--muted:#929bb0;--text:#f5f7ff;--purple:#9b6cff;--cyan:#51d9e8;--pink:#ff62bb;--green:#5be0a0;--radius:20px;--shadow:0 18px 55px rgba(0,0,0,.35)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% -10%,rgba(119,74,215,.19),transparent 34%),radial-gradient(ellipse at 0% 35%,rgba(37,172,190,.08),transparent 28%),var(--bg);color:var(--text);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}button,input,select{font:inherit}button{cursor:pointer}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+    .topline{border-bottom:1px solid var(--line);font-size:12px;color:#b9c2d5;background:rgba(255,255,255,.025)}.topline .wrap{display:flex;justify-content:space-between;gap:12px;padding:9px 0}.topline strong{color:var(--cyan)}
+    header{position:sticky;top:0;z-index:20;background:rgba(9,11,20,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:11px;font:700 21px 'Space Grotesk';letter-spacing:-.7px}.brand-mark{width:39px;height:39px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,var(--purple),#5b4bda 55%,var(--cyan));box-shadow:0 7px 24px #8558e64a;font-size:19px}.brand em{font-style:normal;color:var(--cyan)}nav{display:flex;gap:27px;color:#b4bdd0;font-size:13px;font-weight:600}nav a:hover{color:white}.nav-actions{display:flex;gap:10px;align-items:center}.icon-btn{border:1px solid var(--line);background:#ffffff08;color:white;border-radius:12px;padding:11px 14px}.cart-count{display:inline-grid;place-items:center;min-width:19px;height:19px;padding:0 5px;border-radius:20px;background:var(--purple);font-size:11px;margin-left:5px}
+    .hero{padding:74px 0 54px;display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:35px;min-height:480px}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #9b6cff55;background:#9b6cff14;color:#cdb9ff;border-radius:30px;padding:8px 13px;font-size:11px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase}.pulse{width:7px;height:7px;background:var(--green);border-radius:50%;box-shadow:0 0 12px var(--green)}h1,h2,h3,p{margin-top:0}h1{font:700 clamp(42px,5.4vw,69px)/1.04 'Space Grotesk';letter-spacing:-3px;margin:22px 0 18px}h1 span{background:linear-gradient(90deg,#b58cff,#59dce8);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{max-width:540px;color:#aab3c7;line-height:1.75;font-size:15px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:13px;padding:14px 20px;font-weight:800;font-size:13px;transition:.2s;display:inline-flex;align-items:center;justify-content:center;gap:9px}.btn:hover{transform:translateY(-2px);filter:brightness(1.08)}.primary{background:linear-gradient(100deg,#9865f4,#6558df);color:white;box-shadow:0 10px 30px #835be64a}.secondary{background:#ffffff08;border:1px solid var(--line);color:#e8ebf5}.hero-note{display:flex;gap:18px;margin-top:29px;color:#8993a9;font-size:11px}.hero-note span{display:flex;align-items:center;gap:6px}.hero-art{position:relative;min-height:340px;display:grid;place-items:center}.orb{position:absolute;width:310px;height:310px;border-radius:50%;background:radial-gradient(circle,#9b6cff3d,transparent 68%);filter:blur(5px)}.game-stack{position:relative;width:min(100%,440px);height:310px}.game-tile{position:absolute;border:1px solid #ffffff22;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);background:linear-gradient(145deg,#24284a,#111522);display:flex;align-items:end;padding:20px}.game-tile:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#080a13e8,transparent 75%)}.game-tile>*{position:relative}.tile-main{inset:15px 70px 12px 65px;transform:rotate(-5deg);background:radial-gradient(circle at 70% 20%,#e4a6ff,#6840a2 40%,#14152c 80%)}.tile-main .big-symbol{position:absolute;top:20px;left:0;right:0;text-align:center;font-size:105px;filter:drop-shadow(0 10px 20px #0008)}.tile-main .tile-label{font:700 22px 'Space Grotesk'}.tile-left{width:145px;height:180px;left:0;top:92px;transform:rotate(-13deg);background:radial-gradient(circle at 50% 30%,#6ae5ef,#1b4c70 70%)}.tile-right{width:145px;height:180px;right:0;top:73px;transform:rotate(12deg);background:radial-gradient(circle at 50% 30%,#ff9e9e,#80335d 70%)}.float-tag{position:absolute;right:7px;bottom:8px;background:#151b2be8;border:1px solid var(--line);padding:12px 15px;border-radius:14px;font-size:12px;box-shadow:var(--shadow)}.float-tag b{color:var(--green)}
+    .trust-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:4px auto 70px}.trust{background:#ffffff06;border:1px solid var(--line);border-radius:15px;padding:17px;display:flex;gap:12px;align-items:center}.trust i{font-style:normal;font-size:21px}.trust b{display:block;font-size:12px}.trust small{color:var(--muted);font-size:10px}
+    section{scroll-margin-top:100px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.kicker{color:var(--cyan);font-size:10px;letter-spacing:1.7px;text-transform:uppercase;font-weight:800;margin-bottom:9px}.section-head h2{font:700 31px 'Space Grotesk';letter-spacing:-1px;margin:0}.section-head p{color:var(--muted);font-size:12px;margin:8px 0 0}.search{display:flex;align-items:center;gap:9px;background:#ffffff08;border:1px solid var(--line);border-radius:12px;padding:0 13px;min-width:235px}.search input{background:none;border:0;outline:0;color:white;padding:12px 0;width:100%;font-size:12px}.search input::placeholder{color:#788298}
+    .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}.filter{background:#ffffff08;border:1px solid var(--line);color:#aab3c7;border-radius:30px;padding:9px 14px;font-size:11px;font-weight:700}.filter.active,.filter:hover{background:#9b6cff22;border-color:#9b6cff80;color:#d7c7ff}
+    .games-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.game-card{background:linear-gradient(145deg,#171d2d,#101421);border:1px solid var(--line);border-radius:18px;overflow:hidden;transition:.25s;position:relative}.game-card:hover{transform:translateY(-5px);border-color:#9b6cff80;box-shadow:0 18px 40px #0005}.game-cover{height:145px;display:grid;place-items:center;position:relative;overflow:hidden;background:var(--cover)}.game-cover:before,.game-cover:after{content:"";position:absolute;border-radius:50%;border:1px solid #ffffff20;width:180px;height:180px}.game-cover:after{width:125px;height:125px}.game-emoji{font-size:67px;filter:drop-shadow(0 12px 12px #0008);z-index:1;transition:.3s}.game-card:hover .game-emoji{transform:scale(1.12) rotate(-5deg)}.popular{position:absolute;top:11px;left:11px;background:#090b14b8;border:1px solid #ffffff25;border-radius:30px;padding:5px 8px;font-size:9px;font-weight:800;z-index:2}.game-info{padding:15px}.game-info h3{font:700 15px 'Space Grotesk';margin:0 0 5px}.game-info p{font-size:10px;color:var(--muted);margin:0 0 14px}.game-bottom{display:flex;justify-content:space-between;align-items:center;gap:8px}.starting{font-size:10px;color:#8993a9}.starting b{display:block;color:white;font-size:14px;margin-top:2px}.small-btn{border:0;background:#9b6cff20;color:#d7c7ff;border:1px solid #9b6cff50;border-radius:9px;padding:9px 11px;font-size:10px;font-weight:800}.small-btn:hover{background:#9b6cff;color:white}
+    .promo{margin:76px 0;background:linear-gradient(105deg,#241a45,#142b3b);border:1px solid #9b6cff55;border-radius:23px;padding:34px 38px;display:flex;align-items:center;justify-content:space-between;gap:25px;overflow:hidden;position:relative}.promo:after{content:"✦";position:absolute;right:27%;top:-60px;font-size:220px;color:#ffffff08}.promo h2{font:700 27px 'Space Grotesk';margin:0 0 8px}.promo p{color:#b1bad0;font-size:12px;margin:0}.promo .btn{position:relative;z-index:1;white-space:nowrap}
+    .how{padding:15px 0 76px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.step{border:1px solid var(--line);background:#ffffff05;border-radius:17px;padding:22px}.step-num{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;background:#9b6cff25;color:#cdb9ff;font:700 15px 'Space Grotesk';margin-bottom:17px}.step h3{font:700 15px 'Space Grotesk';margin-bottom:7px}.step p{font-size:11px;line-height:1.7;color:var(--muted);margin:0}
+    footer{border-top:1px solid var(--line);padding:35px 0 25px;background:#070910}.footer-main{display:flex;justify-content:space-between;gap:30px;padding-bottom:27px}.footer-brand{max-width:300px}.footer-brand p{color:var(--muted);font-size:11px;line-height:1.7;margin-top:13px}.footer-links{display:flex;gap:55px}.footer-links b{display:block;font-size:11px;margin-bottom:12px}.footer-links a{display:block;color:var(--muted);font-size:11px;margin:9px 0}.footer-links a:hover{color:white}.copyright{border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;gap:15px;color:#69748a;font-size:10px}
+    .modal-backdrop{position:fixed;inset:0;background:#03040bd9;backdrop-filter:blur(9px);z-index:50;display:none;place-items:center;padding:18px}.modal-backdrop.show{display:grid}.modal{width:min(520px,100%);max-height:90vh;overflow:auto;background:#121827;border:1px solid #ffffff20;border-radius:22px;box-shadow:0 30px 100px #000b;padding:25px;position:relative}.modal-head{display:flex;justify-content:space-between;gap:15px;align-items:start;margin-bottom:20px}.modal-head h2{font:700 22px 'Space Grotesk';margin:0}.modal-head p{font-size:11px;color:var(--muted);margin:6px 0 0}.close{background:#ffffff0d;border:1px solid var(--line);color:white;border-radius:9px;width:33px;height:33px}.field{margin:14px 0}.field label{display:block;color:#b9c2d5;font-size:11px;font-weight:700;margin-bottom:7px}.field input,.field select{width:100%;background:#090e1a;border:1px solid #ffffff1c;border-radius:11px;padding:12px;color:white;outline:0;font-size:12px}.field input:focus,.field select:focus{border-color:var(--purple)}.packages{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.package{background:#ffffff06;border:1px solid var(--line);border-radius:12px;padding:12px;text-align:left;color:white}.package.selected{border-color:var(--purple);background:#9b6cff20}.package b{display:block;font-size:12px}.package small{color:var(--muted);font-size:10px}.package strong{display:block;margin-top:8px;color:#cdb9ff;font-size:14px}.summary{background:#090e1a;border:1px solid var(--line);border-radius:12px;padding:13px;margin:16px 0;display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.summary strong{color:white;font-size:15px}.full{width:100%}.notice{font-size:10px;color:#8590a7;line-height:1.6;margin:12px 0 0}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#172338;border:1px solid #5be0a066;color:white;padding:12px 17px;border-radius:12px;font-size:12px;z-index:80;transition:.25s;box-shadow:var(--shadow)}.toast.show{opacity:1;transform:translate(-50%,0)}.empty{grid-column:1/-1;text-align:center;padding:35px;color:var(--muted);border:1px dashed var(--line);border-radius:15px}
+    @media(max-width:850px){nav{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.hero-art{min-height:300px}.trust-row{grid-template-columns:repeat(2,1fr)}.games-grid{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:600px){.wrap{width:min(100% - 28px,1160px)}.topline .wrap{font-size:10px}.topline .wrap span:last-child{display:none}.nav{height:66px}.brand{font-size:18px}.hero{padding:45px 0 25px;gap:10px}.hero h1{letter-spacing:-2px}.hero-art{min-height:260px}.game-stack{height:250px}.tile-main{inset:10px 55px 10px 55px}.tile-left,.tile-right{width:115px;height:145px}.tile-left{top:75px}.tile-right{top:60px}.tile-main .big-symbol{font-size:82px}.trust-row{margin-bottom:55px;gap:8px}.trust{padding:12px}.section-head{align-items:start;flex-direction:column}.search{width:100%}.games-grid{grid-template-columns:repeat(2,1fr);gap:10px}.game-cover{height:120px}.game-emoji{font-size:55px}.game-info{padding:12px}.game-info h3{font-size:13px}.promo{padding:25px;align-items:flex-start;flex-direction:column;margin:55px 0}.promo h2{font-size:23px}.steps{grid-template-columns:1fr}.footer-main{flex-direction:column}.footer-links{gap:35px}.copyright{flex-direction:column}.hero-note{gap:10px;flex-wrap:wrap}}
+  </style>
+</head>
+<body>
+  <div class="topline"><div class="wrap"><span>⚡ Recarga fácil, rápida y a tu ritmo</span><span><strong>ATENCIÓN:</strong> tienda demo personalizable · Pagos reales no habilitados</span></div></div>
+  <header><div class="wrap nav">
+    <a class="brand" href="#"><span class="brand-mark">A</span><span>RECARGAS <em>ASTORE</em></span></a>
+    <nav><a href="#inicio">Inicio</a><a href="#juegos">Juegos</a><a href="#como-funciona">Cómo funciona</a><a href="#contacto">Contacto</a></nav>
+    <div class="nav-actions"><button class="icon-btn" onclick="document.getElementById('juegos').scrollIntoView({behavior:'smooth'})">Explorar <span>↗</span></button><button class="icon-btn" onclick="showToast('El carrito de demostración está listo para personalizar.')">🛒 <span class="cart-count" id="cartCount">0</span></button></div>
+  </div></header>
+
+  <main>
+    <section class="wrap hero" id="inicio">
+      <div><div class="eyebrow"><span class="pulse"></span> TU ZONA GAMING</div>
+        <h1>Potencia tu juego.<br><span>Sube de nivel.</span></h1>
+        <p class="hero-copy">Tus recargas favoritas en un solo lugar. Explora el catálogo de Recargas Astore, elige tu juego y encuentra el paquete ideal para seguir jugando.</p>
+        <div class="hero-buttons"><a class="btn primary" href="#juegos">Explorar juegos <span>→</span></a><a class="btn secondary" href="#como-funciona">Cómo funciona</a></div>
+        <div class="hero-note"><span>✦ Catálogo personalizable</span><span>◈ Compra sencilla</span><span>⌁ Soporte cercano</span></div>
+      </div>
+      <div class="hero-art"><div class="orb"></div><div class="game-stack">
+        <div class="game-tile tile-left"><span style="font-size:56px">⚔️</span><b>MOBA</b></div>
+        <div class="game-tile tile-right"><span style="font-size:56px">🎯</span><b>SHOOTER</b></div>
+        <div class="game-tile tile-main"><div class="big-symbol">🎮</div><div class="tile-label">PLAY YOUR WAY</div></div>
+        <div class="float-tag">✦ Experiencia gaming <b>ON</b></div>
+      </div></div>
+    </section>
+
+    <div class="wrap trust-row">
+      <div class="trust"><i>⚡</i><div><b>Proceso sencillo</b><small>En pocos pasos</small></div></div>
+      <div class="trust"><i>🛡️</i><div><b>Compra informada</b><small>Detalles antes de confirmar</small></div></div>
+      <div class="trust"><i>🎮</i><div><b>Varios juegos</b><small>Todo en un catálogo</small></div></div>
+      <div class="trust"><i>💬</i><div><b>Atención cercana</b><small>Canales configurables</small></div></div>
+    </div>
+
+    <section class="wrap" id="juegos">
+      <div class="section-head"><div><div class="kicker">ELIGE TU UNIVERSO</div><h2>Catálogo de juegos</h2><p>Encuentra tu juego y selecciona una recarga.</p></div><label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar un juego..." aria-label="Buscar un juego"></label></div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="Todos">Todos</button><button class="filter" data-filter="Battle Royale">Battle Royale</button><button class="filter" data-filter="MOBA">MOBA</button><button class="filter" data-filter="Deportes">Deportes</button><button class="filter" data-filter="Otros">Otros</button>
+      </div>
+      <div class="games-grid" id="gamesGrid"></div>
+    </section>
+
+    <section class="wrap promo"><div><div class="kicker">TU PRÓXIMA PARTIDA EMPIEZA AQUÍ</div><h2>¿Listo para desbloquear más?</h2><p>Explora el catálogo y encuentra tu próxima recarga.</p></div><a class="btn primary" href="#juegos">Ver catálogo <span>→</span></a></section>
+
+    <section class="wrap how" id="como-funciona"><div class="section-head"><div><div class="kicker">FÁCIL Y DIRECTO</div><h2>¿Cómo funciona?</h2><p>Una experiencia clara desde la elección hasta el resumen.</p></div></div>
+      <div class="steps"><article class="step"><div class="step-num">01</div><h3>Elige tu juego</h3><p>Busca el título que quieres recargar y entra en sus opciones disponibles.</p></article><article class="step"><div class="step-num">02</div><h3>Selecciona tu paquete</h3><p>Escoge el paquete, introduce tu identificador de jugador y revisa los datos.</p></article><article class="step"><div class="step-num">03</div><h3>Confirma los detalles</h3><p>Revisa el resumen. Para procesar pagos reales tendrás que conectar un backend y una pasarela segura.</p></article></div>
+    </section>
+  </main>
+
+  <footer id="contacto"><div class="wrap"><div class="footer-main"><div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">A</span><span>RECARGAS <em>ASTORE</em></span></a><p>Tu espacio para descubrir recargas gaming. Personaliza esta tienda con tus productos, precios, canales de soporte y métodos de pago.</p></div><div class="footer-links"><div><b>Explorar</b><a href="#inicio">Inicio</a><a href="#juegos">Catálogo</a><a href="#como-funciona">Cómo funciona</a></div><div><b>Ayuda</b><a href="mailto:soporte@tudominio.com">Correo de soporte</a><a href="#" onclick="showToast('Configura aquí tu política de privacidad.');return false">Privacidad</a><a href="#" onclick="showToast('Configura aquí tus condiciones de compra.');return false">Condiciones</a></div></div></div><div class="copyright"><span>© <span id="year"></span> Recargas Astore. Todos los derechos reservados.</span><span>Hecho para gamers · Plantilla editable</span></div></div></footer>
+
+  <div class="modal-backdrop" id="modalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle" onclick="if(event.target===this)closeModal()">
+    <div class="modal"><div class="modal-head"><div><h2 id="modalTitle">Recargar juego</h2><p id="modalSubtitle">Elige tu paquete y completa los datos.</p></div><button class="close" onclick="closeModal()" aria-label="Cerrar">✕</button></div>
+      <div class="field"><label>Selecciona un paquete</label><div class="packages" id="packages"></div></div>
+      <div class="field"><label for="playerId">ID de jugador / usuario</label><input id="playerId" placeholder="Escribe tu ID de jugador"></div>
+      <div class="field"><label for="server">Servidor o región (si aplica)</label><input id="server" placeholder="Ej. LATAM, Europa... (opcional)"></div>
+      <div class="field"><label for="payment">Método de pago preferido</label><select id="payment"><option value="">Seleccionar método</option><option>PayPal (configurar)</option><option>Transferencia bancaria (configurar)</option><option>Tarjeta (requiere pasarela)</option><option>Otro / Por acordar</option></select></div>
+      <div class="summary"><span>Resumen · <b id="summaryName">—</b></span><strong id="summaryPrice">—</strong></div>
+      <button class="btn primary full" onclick="submitOrder()">Continuar con pedido de demostración →</button>
+      <p class="notice">Esta plantilla no procesa pagos ni entrega productos. Conecta una pasarela autorizada y un backend antes de aceptar pedidos reales. No introduzcas contraseñas ni datos bancarios aquí.</p>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+
+  <script>
+    // PERSONALIZA AQUÍ: nombres, categorías, imágenes/emoji, paquetes y precios.
+    // Los importes son ejemplos ilustrativos; sustitúyelos por tus precios reales.
+    const games = [
+      {id:'freefire',name:'Free Fire',category:'Battle Royale',desc:'Diamantes para tu próxima partida.',emoji:'🔥',cover:'radial-gradient(circle at 50% 25%,#ffb45b,#8e3b31 55%,#21172a)',tag:'POPULAR',packages:[['100 diamantes','100 diamantes',1.49],['310 diamantes','310 diamantes',3.99],['520 diamantes','520 diamantes',6.49],['1060 diamantes','1060 diamantes',12.99]]},
+      {id:'pubg',name:'PUBG Mobile',category:'Battle Royale',desc:'UC para equiparte y competir.',emoji:'🪖',cover:'radial-gradient(circle at 50% 25%,#d9b66b,#6a593c 55%,#202433)',tag:'TOP',packages:[['60 UC','60 UC',0.99],['325 UC','325 UC',4.99],['660 UC','660 UC',9.99],['1800 UC','1800 UC',24.99]]},
+      {id:'mlbb',name:'Mobile Legends',category:'MOBA',desc:'Diamantes para dominar la arena.',emoji:'⚔️',cover:'radial-gradient(circle at 50% 25%,#82d5ff,#3b4c9a 55%,#211c3e)',tag:'POPULAR',packages:[['86 diamantes','86 diamantes',1.49],['172 diamantes','172 diamantes',2.99],['257 diamantes','257 diamantes',4.49],['706 diamantes','706 diamantes',11.99]]},
+      {id:'roblox',name:'Roblox',category:'Otros',desc:'Robux para crear y explorar.',emoji:'🟥',cover:'radial-gradient(circle at 50% 25%,#ff8b8b,#9b303d 55%,#261b31)',tag:'',packages:[['80 Robux','80 Robux',0.99],['400 Robux','400 Robux',4.99],['800 Robux','800 Robux',9.99],['1700 Robux','1700 Robux',19.99]]},
+      {id:'fortnite',name:'Fortnite',category:'Battle Royale',desc:'PaVos para personalizar tu estilo.',emoji:'🌀',cover:'radial-gradient(circle at 50% 25%,#82e4e8,#3e55a8 55%,#211a46)',tag:'',packages:[['1000 paVos','1000 paVos',8.99],['2800 paVos','2800 paVos',22.99],['5000 paVos','5000 paVos',36.99],['13500 paVos','13500 paVos',89.99]]},
+      {id:'codm',name:'Call of Duty Mobile',category:'Otros',desc:'Puntos COD para tu arsenal.',emoji:'🎯',cover:'radial-gradient(circle at 50% 25%,#c8d3a0,#56634a 55%,#1b2630)',tag:'',packages:[['80 CP','80 CP',0.99],['400 CP','400 CP',4.99],['800 CP','800 CP',9.99],['2000 CP','2000 CP',24.99]]},
+      {id:'genshin',name:'Genshin Impact',category:'Otros',desc:'Cristales génesis para tu aventura.',emoji:'💎',cover:'radial-gradient(circle at 50% 25%,#9cdbff,#5c5db4 55%,#211a46)',tag:'',packages:[['60 cristales','60 cristales',0.99],['300 + 30','300 + 30',4.99],['980 + 110','980 + 110',14.99],['1980 + 260','1980 + 260',29.99]]},
+      {id:'valorant',name:'Valorant',category:'Otros',desc:'Puntos Valorant para tu colección.',emoji:'✴️',cover:'radial-gradient(circle at 50% 25%,#ff9d9d,#a43c55 55%,#21182d)',tag:'',packages:[['475 VP','475 VP',5.99],['1000 VP','1000 VP',11.99],['2050 VP','2050 VP',23.99],['3650 VP','3650 VP',39.99]]},
+      {id:'lol',name:'League of Legends',category:'MOBA',desc:'Riot Points para tu campeón.',emoji:'🛡️',cover:'radial-gradient(circle at 50% 25%,#e6c47a,#75603d 55%,#172538)',tag:'',packages:[['575 RP','575 RP',5.99],['1275 RP','1275 RP',11.99],['2575 RP','2575 RP',22.99],['5750 RP','5750 RP',44.99]]},
+      {id:'fc',name:'FC Mobile',category:'Deportes',desc:'Puntos para construir tu equipo.',emoji:'⚽',cover:'radial-gradient(circle at 50% 25%,#a9e5a3,#39775a 55%,#152d2b)',tag:'',packages:[['40 puntos','40 puntos',0.99],['100 puntos','100 puntos',2.49],['520 puntos','520 puntos',9.99],['1070 puntos','1070 puntos',19.99]]}
+    ];
+    let activeFilter='Todos', selectedGame=null, selectedPackage=0, cartItems=0;
+    const money = n => new Intl.NumberFormat('es-ES',{style:'currency',currency:'EUR'}).format(n);
+    function renderGames(){
+      const q=document.getElementById('searchInput').value.trim().toLowerCase();
+      const list=games.filter(g=>(activeFilter==='Todos'||g.category===activeFilter)&&(g.name.toLowerCase().includes(q)||g.desc.toLowerCase().includes(q)));
+      const grid=document.getElementById('gamesGrid');
+      if(!list.length){grid.innerHTML='<div class="empty">No encontramos juegos con esa búsqueda.</div>';return;}
+      grid.innerHTML=list.map(g=>`<article class="game-card"><div class="game-cover" style="--cover:${g.cover}">${g.tag?`<span class="popular">✦ ${g.tag}</span>`:''}<span class="game-emoji">${g.emoji}</span></div><div class="game-info"><h3>${g.name}</h3><p>${g.desc}</p><div class="game-bottom"><span class="starting">Desde<b>${money(Math.min(...g.packages.map(p=>p[2])))}</b></span><button class="small-btn" onclick="openGame('${g.id}')">RECARGAR ↗</button></div></div></article>`).join('');
+    }
+    document.getElementById('filters').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(!b)return;activeFilter=b.dataset.filter;document.querySelectorAll('.filter').forEach(x=>x.classList.toggle('active',x===b));renderGames();});
+    document.getElementById('searchInput').addEventListener('input',renderGames);
+    function openGame(id){
+      selectedGame=games.find(g=>g.id===id);selectedPackage=0;
+      document.getElementById('modalTitle').textContent='Recargar '+selectedGame.name;
+      document.getElementById('modalSubtitle').textContent=selectedGame.desc;
+      document.getElementById('playerId').value='';document.getElementById('server').value='';document.getElementById('payment').value='';
+      document.getElementById('packages').innerHTML=selectedGame.packages.map((p,i)=>`<button class="package ${i===0?'selected':''}" onclick="selectPackage(${i})"><b>${p[0]}</b><small>${p[1]}</small><strong>${money(p[2])}</strong></button>`).join('');
+      updateSummary();document.getElementById('modalBackdrop').classList.add('show');document.body.style.overflow='hidden';
+    }
+    function selectPackage(i){selectedPackage=i;document.querySelectorAll('.package').forEach((b,n)=>b.classList.toggle('selected',n===i));updateSummary();}
+    function updateSummary(){const p=selectedGame.packages[selectedPackage];document.getElementById('summaryName').textContent=selectedGame.name+' · '+p[1];document.getElementById('summaryPrice').textContent=money(p[2]);}
+    function closeModal(){document.getElementById('modalBackdrop').classList.remove('show');document.body.style.overflow='';}
+    function submitOrder(){
+      const player=document.getElementById('playerId').value.trim(),payment=document.getElementById('payment').value;
+      if(!player){showToast('Introduce tu ID de jugador para continuar.');document.getElementById('playerId').focus();return;}
+      if(!payment){showToast('Selecciona un método de pago preferido.');document.getElementById('payment').focus();return;}
+      const p=selectedGame.packages[selectedPackage];cartItems++;document.getElementById('cartCount').textContent=cartItems;
+      const order={game:selectedGame.name,package:p[1],price:money(p[2]),player,payment,server:document.getElementById('server').value.trim()};
+      closeModal();
+      showToast('Pedido de demostración preparado. No se ha realizado ningún cobro.');
+      console.log('Pedido demo Recargas Astore:',order);
+    }
+    let toastTimer;function showToast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),3500);}
+    document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+    document.getElementById('year').textContent=new Date().getFullYear();
+    renderGames();
+  </script>
+</body>
+</html>
